@@ -36,6 +36,7 @@ if (variableLocal > variableGlobal){
     let variableBloque = 7
     console.log(variableBloque);
 }
-
 //console.log(variableBloque);             // la variable de bloque no existe fuera del bloque
 
+// const nos define una constante que no se puede modificar.
+const constante = 17;

@@ -26,7 +26,7 @@ function createSum(){                   // funcion para crear sumas
 let sum4 = createSum(4);                // creamos la funcion que nos suma 4 a un numero "3"
 console.log(sum4(3))
 // -----------------------------
-
+// la gran ventaja del closure es que nos permite crear diferentes funciones que comparten un contexto en el closure
 function createSum(x){                   // funcion para crear sumas
     return function(y){                 // funcion que suma
         return x + y;
